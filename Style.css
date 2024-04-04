@@ -1,0 +1,40 @@
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,121,9,1) 53%, rgba(0,212,255,1) 100%);
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.caja{
+    border: 5px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    padding: 10px;
+    margin: 10px;
+
+   border-radius: 50%; /*para darle forma redonda*/
+   font-weight: 900;
+   font-size: 20px;
+   color: white;
+   background-color: steelblue;
+   transition: all .5s ease-in-out;
+}
+.caja:hover{
+    background-color: greenyellow;
+    color: blue;
+    cursor: pointer;
+   /* transform: rotate(360deg);
+    transform: scale(1.5);
+    transform: skew(45deg);*/
+    transform: translate(40px,40px);
+    -webkit-box-shadow: 71px 43px 45px 26px rgba(0,0,0,0.75);
+-moz-box-shadow: 71px 43px 45px 26px rgba(0,0,0,0.75);
+box-shadow: 71px 43px 45px 26px rgba(0,0,0,0.75);
+}
+.caja:active{
+    background-color: green;
+}
